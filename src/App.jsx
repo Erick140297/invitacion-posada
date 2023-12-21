@@ -34,7 +34,7 @@ const Container = styled.div`
 const Div = styled.div`
   font-family: "Sevillana", cursive;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 120px;
   margin-bottom: 40px;
 `;
 
@@ -45,14 +45,14 @@ const Div2 = styled.div`
 `;
 
 const P = styled.p`
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
   color: #4438e4;
   text-shadow: 2px 2px 4px white;
 `;
 
 const P2 = styled.p`
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   color: #2364bf;
   text-shadow: 2px 2px 4px white;
@@ -60,17 +60,17 @@ const P2 = styled.p`
 
 const H2 = styled.h2`
   font-family: "Dancing Script", cursive;
-  font-size: 35px;
+  font-size: 40px;
   color: #ca7e13;
   text-shadow: 2px 2px 4px white;
-  margin:10px;
+  margin:30px;
 `;
 
 const Button = styled.button`
   padding:5px;
   background: #ffffff;
   font-family: "Dancing Script", cursive;
-  font-size: 20px;
+  font-size: 30px;
   color: #ca7e13;
   border-radius: 5px;
   border: 2px #ca7e13 solid;
