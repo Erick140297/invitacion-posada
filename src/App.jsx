@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const App = () => {
-
   const handleButtonClick = () => {
     window.location.href = "https://maps.app.goo.gl/MMSc3fqByZD8Bw32A";
   };
@@ -26,8 +25,6 @@ const App = () => {
 export default App;
 
 const Container = styled.div`
-  /* background-image: url(https://res.cloudinary.com/dnrcmjyu1/image/upload/v1703150970/Projects/Invitaciones/fondo_zgpzge.jpg); */
-
   background-image: url(https://res.cloudinary.com/dnrcmjyu1/image/upload/v1703154842/Projects/Invitaciones/navidad02_ciq2ww.png);
 
   background-size: cover;
@@ -57,6 +54,9 @@ const P = styled.p`
   font-weight: bold;
   color: #4438e4;
   text-shadow: 2px 2px 4px white;
+  @media (max-height: 850px) {
+    font-size: 25px;
+  }
 `;
 
 const P2 = styled.p`
@@ -64,6 +64,9 @@ const P2 = styled.p`
   font-weight: bold;
   color: #2364bf;
   text-shadow: 2px 2px 4px white;
+  @media (max-height: 850px) {
+    font-size: 25px;
+  }
 `;
 
 const H2 = styled.h2`
@@ -71,15 +74,22 @@ const H2 = styled.h2`
   font-size: 50px;
   color: #a1620b;
   text-shadow: 2px 2px 4px white;
-  margin:30px;
+  margin: 30px;
+  @media (max-height: 850px) {
+    font-size: 35px;
+    margin: 15px;
+  }
 `;
 
 const Button = styled.button`
-  padding:5px;
+  padding: 5px;
   background: #ffffff;
   font-family: "Dancing Script", cursive;
   font-size: 30px;
   color: #ca7e13;
   border-radius: 5px;
   border: 2px #ca7e13 solid;
-`
+  @media (max-height: 850px) {
+    font-size: 20px;
+  }
+`;
