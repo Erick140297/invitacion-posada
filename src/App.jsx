@@ -26,7 +26,10 @@ const App = () => {
 export default App;
 
 const Container = styled.div`
-  background-image: url(https://res.cloudinary.com/dnrcmjyu1/image/upload/v1703150970/Projects/Invitaciones/fondo_zgpzge.jpg);
+  /* background-image: url(https://res.cloudinary.com/dnrcmjyu1/image/upload/v1703150970/Projects/Invitaciones/fondo_zgpzge.jpg); */
+
+  background-image: url(https://res.cloudinary.com/dnrcmjyu1/image/upload/v1703154842/Projects/Invitaciones/navidad02_ciq2ww.png);
+
   background-size: cover;
   background-position: center;
   height: 100vh;
