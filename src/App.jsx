@@ -60,8 +60,8 @@ const P2 = styled.p`
 
 const H2 = styled.h2`
   font-family: "Dancing Script", cursive;
-  font-size: 40px;
-  color: #ca7e13;
+  font-size: 45px;
+  color: #a1620b;
   text-shadow: 2px 2px 4px white;
   margin:30px;
 `;
