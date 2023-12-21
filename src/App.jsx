@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 const App = () => {
+
+  const handleButtonClick = () => {
+    window.location.href = "https://maps.app.goo.gl/MMSc3fqByZD8Bw32A";
+  };
+
   return (
     <Container>
       <Div>
@@ -13,7 +18,7 @@ const App = () => {
         <P2>7:00 p.m.</P2>
         <P2>Cerrada Paseo de Otoño Mz. 6 Lt. 2, colonia San Juan Zapotla</P2>
       </Div2>
-      <Button>Ver ubicación</Button>
+      <Button onClick={handleButtonClick}>Ver ubicación</Button>
     </Container>
   );
 };
